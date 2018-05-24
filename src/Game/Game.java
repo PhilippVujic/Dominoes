@@ -1,3 +1,5 @@
+package Game;
+
 import Piece.PieceContainer;
 import Player.Player;
 
@@ -12,7 +14,7 @@ public class Game {
     }
 
     public void start() {
-        pieceContainer = new PieceContainer(pieceSet + 1 * (pieceSet + 2) / 2, pieceSet);
+        pieceContainer = new PieceContainer(((pieceSet + 1) * (pieceSet + 2)) / 2, pieceSet);
     }
 
     public int getPieceSet() {
